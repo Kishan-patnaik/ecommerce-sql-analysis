@@ -4,6 +4,13 @@ This project contains SQL scripts designed to perform data exploration, cleaning
 
 ---
 
+## 📚 Dataset Source
+
+Data is sourced from Kaggle's **Zepto Inventory Dataset**, which provides detailed product catalog and pricing information for Zepto—a 10‑minute grocery delivery service:  
+[Kaggle: Zepto Inventory Dataset](https://www.kaggle.com/datasets/devshahoff/zepto-dataset) :contentReference[oaicite:1]{index=1}
+
+---
+
 ## 📂 Project Structure
 
 - `zepto_data_analysis.sql` – Main SQL script that:
@@ -32,13 +39,13 @@ This project contains SQL scripts designed to perform data exploration, cleaning
 - Converts pricing from paise to rupees (MRP / 100)
 
 ### 📈 Analysis & Business Insights
-1. **Top 10 best-value products** (by discount)
-2. **High-MRP products out of stock**
-3. **Estimated revenue per category**
-4. **Premium products with low discounts**
-5. **Top 5 categories by average discount**
-6. **Price-per-gram calculation for 100g+ items**
-7. **Categorizing products by weight: Low, Medium, Bulk**
+1. **Top 10 best-value products** (by discount)  
+2. **High‑MRP products out of stock**  
+3. **Estimated revenue per category**  
+4. **Premium products with low discounts**  
+5. **Top 5 categories by average discount**  
+6. **Price‑per‑gram calculation for 100 g+ items**  
+7. **Categorizing products by weight: Low, Medium, Bulk**  
 8. **Total inventory weight per category**
 
 ---
@@ -52,16 +59,16 @@ This project contains SQL scripts designed to perform data exploration, cleaning
 
 ## 🚀 How to Use
 
-1. Clone or download this repository
-2. Open the SQL file in MySQL Workbench or any SQL IDE
-3. Execute each section step-by-step, or run the entire script
-4. Observe insights, tweak queries, and explore the data further
+1. Download or clone this repository.
+2. Obtain the Zepto dataset from the Kaggle link above and import the data into the `Zepto` table.
+3. Run `zepto_data_analysis.sql` in your SQL IDE.
+4. Review results, tweak queries, and generate insights.
 
 ---
 
 ## 📬 Author
 
-**Bhanu Kishan Ravupalli**  
+**Bhanukishan Ravupalli**  
 _Analyst | Data Enthusiast_
 
 ---
