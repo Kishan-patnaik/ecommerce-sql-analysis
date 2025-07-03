@@ -7,7 +7,8 @@ This project contains SQL scripts designed to perform data exploration, cleaning
 ## 📚 Dataset Source
 
 Data is sourced from Kaggle's **Zepto Inventory Dataset**, which provides detailed product catalog and pricing information for Zepto—a 10‑minute grocery delivery service:  
-[Kaggle: Zepto Inventory Dataset](https://www.kaggle.com/datasets/devshahoff/zepto-dataset) :contentReference[oaicite:1]{index=1}
+[Kaggle: Zepto Inventory Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset) :contentReference[oaicite:1]{index=1}
+
 
 ---
 
